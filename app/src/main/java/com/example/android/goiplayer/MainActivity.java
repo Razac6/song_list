@@ -21,5 +21,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(songsIntent);
             }
         });
+
+        TextView artists = (TextView) findViewById(R.id.artist);
+        artists.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent artistIntent = new Intent(MainActivity.this, Artists.class);
+                startActivity(artistIntent);
+            }
+        });
     }
 }
