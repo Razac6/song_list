@@ -13,6 +13,7 @@ public class ArtistSong {
     public String getmArtist() {
         return mArtist;
     }
+
     public String getmSong() {
         return mSong;
     }

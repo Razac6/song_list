@@ -12,7 +12,6 @@ public class Songs extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_songs);
-        // Create a list of words
         ArrayList<ArtistSong> words = new ArrayList<ArtistSong>();
         words.add(new ArtistSong("In My Mind", "lutti"));
         words.add(new ArtistSong("Rise", "lutti"));
@@ -32,6 +31,5 @@ public class Songs extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list_songs);
 
         listView.setAdapter(adapter);
-
     }
 }

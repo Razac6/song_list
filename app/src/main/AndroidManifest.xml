@@ -12,12 +12,17 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Songs" />
-        <activity android:name=".Artists"></activity>
+        <activity
+            android:name=".Songs"
+            android:label="Songs List"
+            android:parentActivityName="com.example.android.goiplayer.MainActivity" />
+        <activity
+            android:name=".Artists"
+            android:label="Artists List"
+            android:parentActivityName="com.example.android.goiplayer.MainActivity" />
     </application>
 
 </manifest>

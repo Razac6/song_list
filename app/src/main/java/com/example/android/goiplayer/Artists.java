@@ -13,7 +13,6 @@ public class Artists extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artists);
 
-        // Create a list of words
         ArrayList<ArtistDetails> words = new ArrayList<ArtistDetails>();
         words.add(new ArtistDetails("In My Mind", "lutti"));
         words.add(new ArtistDetails("Rise", "lutti"));
